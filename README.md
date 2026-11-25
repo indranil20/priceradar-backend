@@ -1,4 +1,0 @@
-# PriceRadar
-Python Flask MVP using SerpAPI Google Shopping results for India. Install Python 3.10+, run `pip install -r requirements.txt`, copy `.env.example` to `.env`, and set your own SERPAPI_KEY from https://serpapi.com/. Run `python app.py` and open http://127.0.0.1:5000.
-
-The API key stays on the server. URL parsing only extracts readable slugs; short links and opaque product IDs require manual model entry. Offers are shopping search results, not verified exact matches. Lowest listed price excludes unverified shipping, coupons and bank offers. Coverage depends on the provider; not all retailers are guaranteed. Live API access requires a valid key and quota. Before public deployment add rate limits, production WSGI hosting, monitoring and stronger product matching. Never commit .env.
